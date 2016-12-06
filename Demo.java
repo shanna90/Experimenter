@@ -15,7 +15,7 @@ public class Demo implements Runnable {
        // Experimenter experimenter = new TrueClassifier();
        // experimenter.runTest();
 		
-		experimenter = new RandomClassifier();
+		Experimenter experimenter = new RandomClassifier();
 		experimenter.runTest();
     }
     
